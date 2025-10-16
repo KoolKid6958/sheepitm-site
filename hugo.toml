@@ -2,3 +2,12 @@ baseURL = 'https://sheepitm.koolkid6958.dev/'
 languageCode = 'en-us'
 title = 'Sheepit-Manager'
 theme = 'hextra'
+
+[menu]
+[[menu.main]]
+name = "Docs"
+pageRef = "/docs"
+
+[[menu.main]]
+name = "Install"
+pageRef = "/install"
