@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Sheepit-Manager'
 theme = 'hextra'
 
+# Allow html in the .md files
+[markup.goldmark.renderer]
+unsafe = true
+
 [menu]
 [[menu.main]]
 name = "Docs"
@@ -10,4 +14,4 @@ pageRef = "/docs"
 
 [[menu.main]]
 name = "Install"
-pageRef = "/install"
+pageRef = "/docs/installation"
